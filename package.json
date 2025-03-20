@@ -21,11 +21,13 @@
   "dependencies": {
     "express": "^4.18.2",
     "langchain": "^0.1.32",
-    "crewai": "^0.1.5",
     "dotenv": "^16.4.5",
     "winston": "^3.11.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
+  },
+  "optionalDependencies": {
+    "@langchain/openai": "^0.0.14"
   }
 }
