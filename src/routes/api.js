@@ -3,8 +3,12 @@ import { analyzeRequest } from '../analyzer/index.js';
 import { createExecutionPlan } from '../orchestrator/index.js';
 import { executeRequest } from '../executor/index.js';
 import { logger } from '../utils/logger.js';
+import { toolsRouter } from './tools.js';
 
 const router = express.Router();
+
+// Tools management routes
+router.use('/tools', toolsRouter);
 
 // Main request endpoint for processing user queries
 router.post('/request', async (req, res) => {
