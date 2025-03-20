@@ -13,6 +13,10 @@ This project serves as an orchestration layer between users and various Model Co
 - **Orchestration**: Creates execution plans that may involve multiple MCP servers
 - **Tool Recommendation**: Suggests creation of new tools when gaps are identified
 
+## Quick Start
+
+For a quick setup and usage guide, please refer to the [QUICKSTART.md](QUICKSTART.md) file.
+
 ## Getting Started
 
 ### Prerequisites
@@ -57,6 +61,15 @@ The system consists of the following components:
 2. **MCP Registry**: Maintains a catalog of all available MCP servers and tools
 3. **Orchestration Engine**: Creates and executes workflows involving multiple tools
 4. **Tool Recommender**: Suggests new tools when gaps are identified
+
+## Troubleshooting
+
+If you encounter any issues during installation or running the server, check the following:
+
+1. Make sure you're using Node.js v18 or higher
+2. Ensure all dependencies are properly installed with `npm install`
+3. Check the logs in the console or `error.log` file for specific error messages
+4. Verify that the `.env` file has the correct configuration
 
 ## Contributing
 
